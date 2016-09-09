@@ -1,0 +1,1 @@
+angular.module('johncancode', ['ngRoute', 'ngResource']);
