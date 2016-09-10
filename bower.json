@@ -1,0 +1,22 @@
+{
+  "name": "johncancode",
+  "description": "portfolio and blog for john zhao, a designer and front end developer in Chicago",
+  "main": "app.js",
+  "authors": [
+    "john zhao"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/johnzondr/portfolio-mvp",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.12"
+  }
+}

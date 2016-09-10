@@ -1,1 +1,1 @@
-angular.module('johncancode', ['ngRoute', 'ngResource']);
+angular.module('johncancode', ['ui.router']);

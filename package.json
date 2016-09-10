@@ -1,11 +1,12 @@
 {
-  "name": "foodjunky",
-  "version": "1.0.0",
-  "description": "prototype for search page",
+  "name": "johncancode.com",
+  "version": "0.1.1",
+  "description": "portfolio and blog for john zhao, a designer and front end developer in Chicago",
   "main": "app.js",
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
     "gulp-sass": "^2.2.0"
   },
   "scripts": {
