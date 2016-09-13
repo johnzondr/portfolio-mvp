@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en-us" ng-app="johncancode">
+<html lang="en-us" ng-app="developedbyjohn">
     <head>
         <title>johncancode - john zhao portfolio</title>
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta charset="UTF-8">
+        <base href="/">
 
 
         <link rel="stylesheet" href="css/style.css" />
-        
+
+        <!-- moment -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.0/locale/af.js"></script>
+
         <!-- load angular via CDN -->
 
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.12/angular.min.js"></script>
@@ -15,6 +19,8 @@
     
     
         <script src="app.js"></script>
+        <script src="services.js"></script>
+
         <script src="https://use.typekit.net/sgl8hxf.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
@@ -22,6 +28,6 @@
 
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <div ui-view></div>
     </body>
 </html>
